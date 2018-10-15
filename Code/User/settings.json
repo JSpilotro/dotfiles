@@ -1,0 +1,10 @@
+{
+    "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${appName}",
+    "editor.cursorBlinking": "phase",
+    "editor.cursorStyle": "block",
+    "editor.wordWrap": "on",
+    "editor.tabSize": 2,
+    "editor.minimap.showSlider": "always",
+    "eslint.alwaysShowStatus": true,
+    
+}
