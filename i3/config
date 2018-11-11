@@ -44,15 +44,19 @@ bindsym $mod+z exec --no-startup-id morc_menu
 
 exec --no-startup-id volumeicon
 bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
-#exec --no-startup-id pulseaudio
-#exec --no-startup-id pa-applet
+# exec --no-startup-id pulseaudio
+# exec --no-startup-id pa-applet
 #bindsym $mod+Ctrl+m exec pavucontrol
+
+# bindsym XF86AudioRaiseVolume exec amixer -q sset master 2dB+ unmute
+# bindsym XF86AudioLowerVolume exec amixer -q sset master 2dB- unmute
+# bindsym XF86AudioMute exec amixer -q sset speaker toggle
 
 ################################################################################################
 
 # Screen brightness controls
-# bindsym XF86MonBrightnessUp exec "xbacklight -inc 10; notify-send 'brightness up'"
-# bindsym XF86MonBrightnessDown exec "xbacklight -dec 10; notify-send 'brightness down'"
+#bindsym XF86MonBrightnessUp exec "xbacklight -inc 10; notify-send 'brightness up'"
+#bindsym XF86MonBrightnessDown exec "xbacklight -dec 10; notify-send 'brightness down'"
 
 # Start Applications
 bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
