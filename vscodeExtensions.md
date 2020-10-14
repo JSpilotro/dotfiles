@@ -9,5 +9,5 @@
 * [debugger-for-chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
 * [theme-cobalt2](https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2)
 * [material-icon-theme](https://marketplace.visualstudio.com/items?itemName=pkief.material-icon-theme)
-* [ms-azuretools.vscode-docker] (https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
-* [ms-vscode-remote.remote-ssh] (https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
+* [ms-azuretools.vscode-docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
+* [ms-vscode-remote.remote-ssh](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
