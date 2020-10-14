@@ -1,10 +1,72 @@
 {
-    "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${appName}",
-    "editor.cursorBlinking": "phase",
-    "editor.cursorStyle": "block",
-    "editor.wordWrap": "on",
-    "editor.tabSize": 2,
-    "editor.minimap.showSlider": "always",
-    "eslint.alwaysShowStatus": true,
-    
+  "editor.fontFamily": "operator Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.quickSuggestionsDelay": 30,
+  "editor.letterSpacing": 0.5,
+  "workbench.editor.tabSizing": "shrink",
+  "html.format.enable": true,
+  "html.format.preserveNewLines": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.tabSize": 2,
+  "editor.cursorWidth": 5,
+  "editor.cursorStyle": "block",
+  "editor.wordWrap": "on",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.fontWeight": "400",
+  "editor.cursorBlinking": "phase",
+  "editor.colorDecorators": false,
+  "editor.minimap.enabled": true,
+  "editor.renderWhitespace": "none",
+  "editor.rulers": [
+    80,
+    100
+  ],
+  "editor.minimap.showSlider": "always",
+  "workbench.startupEditor": "newUntitledFile",
+  "extensions.ignoreRecommendations": false,
+  "files.exclude": {
+    "**/.cache": true,
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.next": true,
+    "**/.svn": true,
+    "**/CVS": true,
+    "**/dist": true
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  // this lets you quick open multiple items in a row and now have the previous ones closed on you
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+  //"window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${appName}",
+  // These are all my auto-save configs
+  "editor.formatOnSave": true,
+  // turn it off for JS
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "window.closeWhenEmpty": true,
+  "editor.detectIndentation": false,
+  "files.insertFinalNewline": true,
+  "editor.showFoldingControls": "always",
+  "editor.find.seedSearchStringFromSelection": true,
+  "editor.matchBrackets": "always",
+  "window.openFilesInNewWindow": "off",
+  "workbench.editor.enablePreview": true,
+  "editor.scrollBeyondLastLine": true,
+  "editor.useTabStops": true,
+  "editor.formatOnPaste": true,
+  "editor.parameterHints.enabled": false,
+  "editor.suggestSelection": "first",
+  "editor.fontLigatures": true,
+  "workbench.tree.indent": 20,
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.integrated.fontSize": 20,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "typescript.tsserver.log": "verbose",
+  "editor.suggest.insertMode": "replace",
+  "liveshare.featureSet": "stable"
 }
