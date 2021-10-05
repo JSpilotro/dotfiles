@@ -34,7 +34,7 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   // turn it off for JS
   "[javascript]": {
     "editor.formatOnSave": false
@@ -63,4 +63,6 @@
   },
   "terminal.integrated.shell.osx": "/bin/zsh",
   "typescript.tsserver.log": "verbose",
+  "workbench.editor.untitled.hint": "hidden",
+  "editor.bracketPairColorization.enabled": true,
 }
